@@ -29,6 +29,7 @@ body{
     border: 4px solid #222;
     margin: 10px;
     background: gray;
+    flex-grow: 1;
 }
 
 .red{
