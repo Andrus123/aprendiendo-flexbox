@@ -3,13 +3,14 @@ body{
     text-align: center;
 }
 #layout{
+
     display: flex;
     /*
     flex-direction: row;
     flex-wrap: wrap;
     */
 
-    flex-flow: column-reverse wrap;
+    flex-flow: row wrap;
 
     border: 3px solid black;
     padding: 5px;
@@ -27,17 +28,21 @@ body{
 }
 
 .red{
+    order: 3;
     background: red;
 }
 .green{
+    order: 1;
     background: green;
 }
 
 .blue{
+    order: 2;
     background: navy;
 }
 
 .orange{
+    order: 4;
     background: orange;
 }
 
